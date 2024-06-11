@@ -6,12 +6,59 @@ header {
 }
 
 .letra-color {
-    background: linear-gradient(to right,#1d2d44, #77c7c7,#885c9f); 
+    background: linear-gradient(to right, #1d2d44, #77c7c7, #885c9f);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
 .icono-gigante {
     font-size: 7rem;
-    padding: 5px 10px;
+    color: #fdf8cb;
+    border-radius: 100px;
+    padding: 15px 30px;
+    align-items: center;
+    background-color: #1d2d44;
+    margin: 15px 30px;
 }
+
+button {
+    background-color: #d44d5c;
+    color: #fdf8cb;
+    border-radius: 20px;
+    padding: 5px 10px;
+    outline-color: #d44d5c;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+}
+
+.logo-amarillo-nombre {
+    width: 80px;
+}
+
+nav {
+    background-color: #1d2d44;
+    color: #fdf8cb;
+    font-family: "Titan One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    justify-content: space-between;
+}
+
+.io{
+    width: 300px;
+    border-radius: 100px;
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h3{
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
