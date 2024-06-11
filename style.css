@@ -1,7 +1,17 @@
 header {
-    background-image: linear-gradient(rgba(45, 45, 196, 0.5), rgba(254, 249, 141, 0.652)),
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.652)),
         url(assets/disenador-grafico-vista-superior-tableta_23-2149142154.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    
+}
+
+.letra-color {
+    background: linear-gradient(to right,#1d2d44, #77c7c7,#885c9f); 
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.icono-gigante {
+    font-size: 7rem;
+    padding: 5px 10px;
 }
