@@ -14,33 +14,35 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="assets/sin-nombreAm.png" alt="logo" class="logo-amarillo-nombre"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Hola</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Esta soy yo</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link active" href="#">Así trabajo</a>
+            <a class="nav-link" href="#">Esta soy yo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="#">Contáctame</a>
+            <a class="nav-link" aria-disabled="true">Así trabajo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">Contáctame</a>
           </li>
         </ul>
       </div>
@@ -48,21 +50,23 @@
   </nav>
 
   <header class="vh-100">
-    <div class="p-5 text-center bg-body-tertiary rounded-3">
+    <div class="p-5 text-center rounded-3">
       <div class="container py-5">
         <img src="assets/IMG_4424.jpg" alt="io" class="io">
         <h1 class="display-5 fw-bold letra-color text-white">Yunuen Olvera</h1>
         <h2 class="text-white letra-color">Diseñadora gráfica JR</h2>
 
         <p class="col-lg-8 lead w-50 mt-3 mx-auto outfit">
-          ¡Hola! Soy una diseñadora gráfica junior apasionada por la fotografía, la ingeniería en papel, el desarrollo web y la creación de marcas.
+          ¡Hola! Soy una diseñadora gráfica junior apasionada por la fotografía, la ingeniería en papel, el desarrollo
+          web y la creación de marcas.
         </p>
-        <p class="col-lg-8 lead w-50 mt-3 mx-auto">Adoro a los perros, perderme en un buen libro y escuchar música de los 80s.</p>
+        <p class="col-lg-8 lead w-50 mt-3 mx-auto">Adoro a los perros, perderme en un buen libro y escuchar música de
+          los 80s.</p>
         <p class="col-lg-8 lead w-50 mx-auto">
-          Ah, y cualquier cosa que tenga que ver con viajes en el tiempo ¡me encanta! 
+          Ah, y cualquier cosa que tenga que ver con viajes en el tiempo ¡me encanta!
         </p>
         <p class="col-lg-8 lead w-50 mx-auto">
-          Bienvenidos a mi mundo creativo, donde cada proyecto es una aventura única.  
+          Bienvenidos a mi mundo creativo, donde cada proyecto es una aventura única.
         </p>
         <div>
           <a href="mailto:hola@yunuenolvera.com">
@@ -77,12 +81,8 @@
     <section id="Esta-soy-yo">Esta soy yo</section>
     <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
       <div class="feature col">
-        <div
-          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
           <i class="bi bi-laptop icono-gigante"></i>
-         <!--  <svg class="bi" width="1em" height="1em">
-            <use xlink:href="#collection"></use>
-          </svg> -->
         </div>
         <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
         <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
@@ -95,8 +95,7 @@
         </a>
       </div>
       <div class="feature col">
-        <div
-          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
           <i class="bi bi-camera2 icono-gigante"></i>
           <svg class="bi" width="1em" height="1em">
             <use xlink:href="#people-circle"></use>
@@ -113,8 +112,7 @@
         </a>
       </div>
       <div class="feature col">
-        <div
-          class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
           <i class="bi bi-palette2 icono-gigante"></i>
           <svg class="bi" width="1em" height="1em">
             <use xlink:href="#toggles2"></use>
@@ -131,20 +129,200 @@
         </a>
       </div>
     </div>
-    <section id="Asi-trabajo">Así trabajo</section>
+    <section id="Asi-trabajo">
+      <h2 class="my-3 border-bottom pb-2">Así trabajo</h2>
+
+      <!-- Álbum -->
+      <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <!-- Proyecto 1 ALDDA-->
+            <article class="col">
+              <div class="card shadow-sm">
+                <figure>
+                  <img src="assets/Screenshot 2024-06-11 at 7.32.45 PM.png" class="img-fluid" alt="ALDDA" width="100%">
+                </figure>
+                <main class="card-body">
+                  <p class="card-text">Proyecto realizado con base en una página existente. Tenía que hacer un clon
+                    exactamente igual al original.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                </main>
+              </div>
+            </article>
+
+            <!-- Proyecto 2 Clon Google-->
+            <article class="col">
+              <div class="card shadow-sm">
+                <figure>
+                  <img src="assets/Screenshot 2024-06-11 at 7.33.27 PM.png" class="img-fluid" alt="ClonGoogle"
+                    width="100%">
+                </figure>
+                <main class="card-body">
+                  <p class="card-text">Se realizó un clon de la página de Google con características individuales. En
+                    este
+                    caso, se jugó con los colores complementarios de la paleta corporativa para hacer un doodle animado.
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </article>
+
+            <!-- Proyecto 3 Display-->
+            <article class="col">
+              <div class="card shadow-sm">
+                <figure>
+                  <img src="assets/Screenshot 2024-06-11 at 7.34.06 PM.png" class="img-fluid" alt="Display"
+                    width="100%">
+                </figure>
+                <main class="card-body">
+                  <p class="card-text">Apunte sobre la clase de Displays del curso Tecnolochicas Pro Bootcamp 2024. Se
+                    realizó de esta manera para ejemplificar con mayor claridad cada tipo.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                    </div>
+                  </div>
+                </main>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carrusel -->
+      <div id="carouselExampleAutoplaying" class="carousel slide d-flex justify-content-center" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/Pin.png" class="d-block w-100" alt="LNTC-1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/179-sweatshirt-mockup.png" class="d-block w-100" alt="LNTC-2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Empaque.png" class="d-block w-100" alt="Chaly's-1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Cachucha.png" class="d-block w-100" alt="Chaly's-2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Door Hanger.png" class="d-block w-100" alt="BnB-1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Doormat.png" class="d-block w-100" alt="BnB-2">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Frasco té.png" class="d-block w-100" alt="ETdE-1">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/Frasco té__3.png" class="d-block w-100" alt="ETdE-2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- Carrusel  Mali-->
+      <div class="carousel-inner">
+        <div class="carousel-item active " data-bs-interval="10000">
+          <div class="d-flex justify-content-center">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="assets/pato.jpeg" class="img-fluid rounded-circle" alt="Testimonio Mark Zukemberg">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Mr. Duck</h5>
+                    <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
+                    <p class="card-text">Malinali es una profesional comprometida con la tecnología,
+                      y adora a los patos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active " data-bs-interval="10000">
+          <div class="d-flex justify-content-center">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="assets/pato.jpeg" class="img-fluid rounded-circle" alt="Testimonio Mark Zukemberg">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Mr. Duck</h5>
+                    <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
+                    <p class="card-text">Malinali es una profesional comprometida con la tecnología,
+                      y adora a los patos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active " data-bs-interval="10000">
+          <div class="d-flex justify-content-center">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="assets/pato.jpeg" class="img-fluid rounded-circle" alt="Testimonio Mark Zukemberg">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Mr. Duck</h5>
+                    <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
+                    <p class="card-text">Malinali es una profesional comprometida con la tecnología,
+                      y adora a los patos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
     <section id="Contactame">Contáctame</section>
   </main>
 
-  <footer>
-    <a
-      href="https://www.freepik.es/foto-gratis/disenador-grafico-vista-superior-tableta_19673230.htm#fromView=search&page=1&position=48&uuid=23579b89-6926-4a61-8b58-cf2b911370c5">Designed
-      by Freepik</a>
 
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Tecnolochicas Pro, Yunuen Olvera</p>
+
+    <a href="/"
+      class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <img src="assets/sin-nombreAz.png" alt="logo-azul" class="logo-azul-sin">
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hola</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Esta soy yo</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Así trabajo</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contáctame</a></li>
+    </ul>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
