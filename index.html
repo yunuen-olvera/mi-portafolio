@@ -22,6 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -53,100 +54,101 @@
     </div>
   </nav>
 
-  <header class="vh-100">
+  <header class="">
     <div class="p-5 text-center rounded-3">
       <div class="container py-5">
-        <img src="assets/IMG_4424.jpg" alt="io" class="io">
-        <h1 class="display-5 fw-bold letra-color2">Hola :)</h1>
+        <div class="animate__animated animate__backInDown">
+          <img src="assets/IMG_4424.jpg" alt="io" class="io"> 
+        </div>
+        <h1 class="display-5 fw-bold letra-color2 animate__animated animate__fadeInDown">Hola :)</h1>
         <h2 id="app" class="letra-color typed">
           <span class="Typewriter__cursor">|</span>
         </h2>
 
-        <p class="col-lg-8 lead w-50 mt-3 mx-auto outfit">
-          ¡Hola! Soy una diseñadora gráfica junior apasionada por la fotografía, la ingeniería en papel, el desarrollo
+        <p id="description1" class="col-lg-8 lead w-50 mt-3 mx-auto outfit">
+          ¡Bienvenidx! Me apasiona el diseño gráfico, la fotografía, la ingeniería en papel, el desarrollo
           web y la creación de marcas.
         </p>
-        <p class="col-lg-8 lead w-50 mt-3 mx-auto">Adoro a los perros, perderme en un buen libro y escuchar música de
+        <p id="description2" class="col-lg-8 lead w-50 mt-3 mx-auto">Adoro a los perros, perderme en un buen libro y
+          escuchar música de
           los 80s.</p>
-        <p class="col-lg-8 lead w-50 mx-auto">
-          Ah, y cualquier cosa que tenga que ver con viajes en el tiempo ¡me encanta!
-        </p>
-        <p class="col-lg-8 lead w-50 mx-auto">
+        <p id="description3" class="col-lg-8 lead w-50 mx-auto">
           Bienvenidos a mi mundo creativo, donde cada proyecto es una aventura única.
         </p>
         <div>
           <a href="mailto:hola@yunuenolvera.com">
             <button type="button" class="button">
-              <h4 class="display-6" onclick="this.innerHTML='También checa las redes de abajo :)'">
+              <h4 class="display-6 animate__animated animate__backInUp"
+                onclick="this.innerHTML='También checa las redes de abajo :)'">
                 Contáctame
               </h4>
             </button>
-            
+
           </a>
         </div>
       </div>
     </div>
   </header>
 
-<br>
+  <br>
 
   <main>
-    <section id="lo-que-se-hacer"><h2>Lo que sé hacer</h2></section>
-    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" id="lo-que-se-hacer">
-      <div class="feature-col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
-          <i class="bi bi-laptop icono-gigante"></i>
+    <section id="lo-que-se-hacer">
+      <h2>Lo que sé hacer</h2>
+    </section>
+    <section class="container">
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" id="lo-que-se-hacer">
+        <div class="feature-col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center fs-2 mb-3">
+            <i class="bi bi-laptop icono-gigante"></i>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
+          <p>Desde Wordpress hasta HTML, CSS y JS.</p>
+          <a href="https://www.yunuenolvera.com" target="_blank" class="icon-link">
+            Checa esta otra página
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
         </div>
-        <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-          probably just keep going until we run out of words.</p>
-        <a href="#" class="icon-link">
-          Call to action
-          <svg class="bi">
-            <use xlink:href="#chevron-right"></use>
-          </svg>
-        </a>
-      </div>
-      <div class="feature-col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-          <i class="bi bi-camera2 icono-gigante"></i>
-          <svg class="bi" width="1em" height="1em">
-            <use xlink:href="#people-circle"></use>
-          </svg>
+        <div class="feature-col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+            <i class="bi bi-camera2 icono-gigante"></i>
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#people-circle"></use>
+            </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis">Fotografía</h3>
+          <p>He realizado fotografía inmobiliaria, de evento de naturaleza, arquitectura, producto y de mascotas.</p>
+          <a href="https://www.instagram.com/yunuen_olv" target="_blank" class="icon-link">
+            Checa mi Instagram
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
         </div>
-        <h3 class="fs-2 text-body-emphasis">Fotografía</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-          probably just keep going until we run out of words.</p>
-        <a href="#" class="icon-link">
-          Call to action
-          <svg class="bi">
-            <use xlink:href="#chevron-right"></use>
-          </svg>
-        </a>
-      </div>
-      <div class="feature-col">
-        <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
-          <i class="bi bi-palette2 icono-gigante"></i>
-          <svg class="bi" width="1em" height="1em">
-            <use xlink:href="#toggles2"></use>
-          </svg>
+        <div class="feature-col">
+          <div class="feature-icon d-inline-flex align-items-center justify-content-center bg-gradient fs-2 mb-3">
+            <i class="bi bi-palette2 icono-gigante"></i>
+            <svg class="bi" width="1em" height="1em">
+              <use xlink:href="#toggles2"></use>
+            </svg>
+          </div>
+          <h3 class="fs-2 text-body-emphasis righteous-regular">Y más</h3>
+          <p>He desarrollado marcas (chécalas aquí abajo) y también he diseñado tarjetas con ingeniería en papel.</p>
+          <a href="https://bento.me/yunuen-olvera" target="_blank" class="icon-link">
+            Checa mis redes
+            <svg class="bi">
+              <use xlink:href="#chevron-right"></use>
+            </svg>
+          </a>
         </div>
-        <h3 class="fs-2 text-body-emphasis righteous-regular">Y más</h3>
-        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
-          probably just keep going until we run out of words.</p>
-        <a href="#" class="icon-link">
-          Call to action
-          <svg class="bi">
-            <use xlink:href="#chevron-right"></use>
-          </svg>
-        </a>
       </div>
-    </div>
-    <section id="Asi-trabajo">
+    </section>
+    <section id="Asi-trabajo" class="bg-body-tertiary">
       <h2 class="my-3 border-bottom pb-2">Así trabajo</h2>
-
       <!-- Álbum -->
-      <div class="album py-5 bg-body-tertiary">
+      <div class="album py-5 bg-body-tertiary animate__animated animate__slideInUp">
         <div class="container">
 
           <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
@@ -161,7 +163,8 @@
                     exactamente igual al original.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <a href="https://aldda-practice.netlify.app" target="_blank">Mira</a></button>
                 </main>
               </div>
             </article>
@@ -176,11 +179,13 @@
                 <main class="card-body">
                   <p class="card-text">Se realizó un clon de la página de Google con características individuales. En
                     este
-                    caso, se jugó con los colores complementarios de la paleta corporativa para hacer un doodle animado.
+                    caso, se jugó con los colores complementarios de la paleta corporativa para hacer un doodle
+                    animado.
                   </p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <a href="https://gooogle-com.netlify.app" target="_blank">Mira</a></button>
                     </div>
                   </div>
                 </main>
@@ -199,7 +204,9 @@
                     realizó de esta manera para ejemplificar con mayor claridad cada tipo.</p>
                   <div class="d-flex justify-content-between align-items-center">
                     <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        <a href="https://startling-gnome-2527c7.netlify.app" target="_blank">Mira</a>
+                      </button>
                     </div>
                   </div>
                 </main>
@@ -208,9 +215,12 @@
           </div>
         </div>
       </div>
-
+    </section>
+    <section class="container">
       <!-- Carrusel -->
-      <div id="carouselExampleAutoplaying" class="carousel slide d-flex justify-content-center" data-bs-ride="carousel">
+      <div id="carouselExampleAutoplaying" class="CarruselDG bg-body-tertiary d-flex justify-content-center w-100"
+        class="carousel slide d-flex justify-content-center animate__animated animate__slideInUp"
+        data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="assets/Pin.png" class="d-block w-100" alt="LNTC-1">
@@ -248,22 +258,25 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+    </section>
 
+    <section id="Sobre-mi">
+      <h2>Sobre mí</h2>
       <!-- Carrusel  Mali-->
-      <div class="carousel-inner">
+      <div class="carousel-inner animate__animated animate__slideInUp">
         <div class="carousel-item active " data-bs-interval="10000">
           <div class="d-flex justify-content-center">
             <div class="card mb-3 border-0" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="assets/pato.jpeg" class="img-fluid rounded-circle" alt="Testimonio Mark Zukemberg">
+                  <img src="assets/umq.jpeg" class="img-fluid rounded-circle" alt="UMQ">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">Mr. Duck</h5>
-                    <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
-                    <p class="card-text">Malinali es una profesional comprometida con la tecnología,
-                      y adora a los patos.</p>
+                    <h5 class="card-title">Universidad</h5>
+                    <p class="card-text"><small class="text-body-secondary">2020-2024</small></p>
+                    <p class="card-text">Estudié la carrera de Diseño y comunicación visual en la Universidad Marista de
+                      Querétaro.</p>
                   </div>
                 </div>
               </div>
@@ -275,14 +288,14 @@
             <div class="card mb-3 border-0" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="assets/pato.jpeg" class="img-fluid rounded-circle" alt="Testimonio Mark Zukemberg">
+                  <img src="assets/+simple.webp" class="img-fluid rounded-circle" alt="+Simple">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">Mr. Duck</h5>
-                    <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
-                    <p class="card-text">Malinali es una profesional comprometida con la tecnología,
-                      y adora a los patos.</p>
+                    <h5 class="card-title">+Simple</h5>
+                    <p class="card-text"><small class="text-body-secondary">2022-2023</small></p>
+                    <p class="card-text">Realicé mis prácticas profesionales en la agencia queretana de marketing y
+                      diseño.</p>
                   </div>
                 </div>
               </div>
@@ -294,14 +307,32 @@
             <div class="card mb-3 border-0" style="max-width: 540px;">
               <div class="row g-0">
                 <div class="col-md-4">
-                  <img src="assets/pato.jpeg" class="img-fluid rounded-circle" alt="Testimonio Mark Zukemberg">
+                  <img src="assets/AlfaPlus.png" class="img-fluid rounded-circle" alt="AlfaPlus">
                 </div>
                 <div class="col-md-8">
                   <div class="card-body">
-                    <h5 class="card-title">Mr. Duck</h5>
-                    <p class="card-text"><small class="text-body-secondary">CEO META</small></p>
-                    <p class="card-text">Malinali es una profesional comprometida con la tecnología,
-                      y adora a los patos.</p>
+                    <h5 class="card-title">Alfa Plus</h5>
+                    <p class="card-text"><small class="text-body-secondary">2023-actual</small></p>
+                    <p class="card-text">Soy fotógrafa inmobiliaria en Alfa Plus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active " data-bs-interval="10000">
+          <div class="d-flex justify-content-center">
+            <div class="card mb-3 border-0" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="assets/iqm sj.png" class="img-fluid rounded-circle" alt="IQM-SJ">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">IQM San Javier</h5>
+                    <p class="card-text"><small class="text-body-secondary">2024</small></p>
+                    <p class="card-text">Realicé mi servicio social y, posteriormente, suplencia en el área de diseño en
+                      el Instituto Queretano Marista San Javier.</p>
                   </div>
                 </div>
               </div>
@@ -309,21 +340,41 @@
           </div>
         </div>
       </div>
-
     </section>
 
-    <section id="Contactame">Contáctame</section>
+    <section id="Contactame">
+      <div class="container my-5">
+        <div class="justify-content-center align-items-center p-5 text-center bg-body-tertiary rounded-3">
+          <h2 class="text-body-emphasis">Contáctame</h2>
+          <p class="lead">
+            Encuéntrame en redes sociales.
+          </p>
+          <a href="https://www.instagram.com/yunuen_olv" target="_blank"><i id="contactame"
+              class="bi bi-instagram"></i></a>
+          <a href="https://www.tiktok.com/@Yunuen.olvera" target="_blank"><i id="contactame"
+              class="bi bi-tiktok"></i></a>
+          <a href="mailto:hola@yunuenolvera.com" target="_blank"><i id="contactame" class="bi bi-envelope"></i></a>
+          <a href="https://github.com/yunuen-olvera" target="_blank"><i id="contactame" class="bi bi-github"></a></i>
+          <a href="https://www.behance.net/yunuen-olvera" target="_blank"><i id="contactame"
+              class="bi bi-behance"></i></a>
+          <a href="https://www.linkedin.com/in/yunuen-olvera/" target="_blank"><i id="contactame"
+              class="bi bi-linkedin"></i></a>
+
+        </div>
+      </div>
+    </section>
   </main>
 
 
   <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p class="col-md-4 mb-0 text-body-secondary">© 2024 Tecnolochicas Pro, Yunuen Olvera</p>
-
-    <a href="/"
-      class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-      <img src="assets/sin-nombreAz.png" alt="logo-azul" class="logo-azul-sin">
-    </a>
-
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Tecnolochicas Pro, Yunuen Olvera</span>
+    </div>
     <ul class="nav col-md-4 justify-content-end">
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Hola</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Esta soy yo</a></li>
@@ -336,7 +387,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <script src="script.js"></script>
 </body>
 
